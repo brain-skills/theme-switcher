@@ -1,11 +1,5 @@
-body {
-    color: #222;
-    background: #fff;
-}
-body.dark-theme {
-    color: #eee;
-    background: #121212;
-}
-body.dark-theme a {
-    color: #809fff;
-}
+body {color: #222;background-color: #fff;}
+body.dark-theme {color: #eee;background-color: #121212;}
+body.dark-theme a {color: #809fff;}
+.btn-toggle:after {content: "Dark Theme"}
+body.dark-theme .btn-toggle:after {content: "Light Theme"}
